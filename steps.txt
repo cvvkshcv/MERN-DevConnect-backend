@@ -1,0 +1,17 @@
+Create server:
+require express
+call express() => const app = express()
+then 
+app.get('/path',(req, res) => {
+	
+});
+
+
+Connecting mongodb:
+install mongoose
+require mongoose
+mongoose.connect('connection url').then(() => {}).catch(err => {});
+
+Configure routes :
+Create 'routes' folder
+inside add files.js
